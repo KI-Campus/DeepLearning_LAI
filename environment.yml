@@ -6,13 +6,22 @@ channels:
 dependencies:
   - python=3.7.10
   - cpuonly
-  - pytorch=1.8.1
+  - pytorch=1.9.1
   - jupyter
-  - torchvision=0.9.1
+  - torchvision=0.10.1
   - pandas=1.1.5
   - matplotlib
   - scikit-learn
+  - transformers
+  - nb_conda_kernels
   - pip
   - pip:
     - tqdm==4.41
     - tabulate==0.8.9
+    - gensim==4.0.0
+    - torchtext==0.10.1
+    - torch_geometric==2.2.0
+    - torch_scatter
+    - torch_sparse==0.6.12
+    - captum
+    - requests
